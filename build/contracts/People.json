@@ -1,0 +1,122 @@
+{
+  "contractName": "People",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/People.sol\":\"People\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/People.sol\":{\"keccak256\":\"0x320920820c094d111be5d32e78a4871cdc58bc00fbe58f295344c694714685bb\",\"urls\":[\"bzz-raw://b418a4197d40d7d55ab3f29c050cf6d4c463b5ed3eaead22f7cbf1602ddb91b5\",\"dweb:/ipfs/QmNpR2mhL9xNtQMWHqqYwq9imgphZBnQENnWo5zdo3LPTV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582022bf450534707605d17e33b864b75f7de1d8b5c785dadbe7607fdd13b183d01064736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582022bf450534707605d17e33b864b75f7de1d8b5c785dadbe7607fdd13b183d01064736f6c63430005100032",
+  "sourceMap": "66:1080:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:1080:0;;;;;;;",
+  "deployedSourceMap": "66:1080:0:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract People {\n//   Person[] public people;\n\n//   struct Person {\n//     bytes32 firstName;\n//     bytes32 lastName;\n//     uint age;\n//   }\n\n//   function addPerson(bytes32 _firstName, bytes32 _lastName, uint _age) public returns (bool success) {\n\n//     Person memory newPerson;\n//     newPerson.firstName = _firstName;\n//     newPerson.lastName = _lastName;\n//     newPerson.age = _age;\n\n//     people.push(newPerson);\n//     return true;\n//   }\n//   function getPeople() public view returns (bytes32[] memory,bytes32[] memory,uint[] memory) {\n//     uint length = people.length;\n\n//     bytes32 memory firstNames = new bytes32[](length);\n//     bytes32 memory lastNames = new bytes32[](length);\n//     uint[] memory ages = new bytes32[](length);\n\n//     for (uint i = 0; i < people.length; i++) {\n//       Person memory currentPerson;\n//       currentPerson = people[i];\n\n//       firstNames.push(currentPerson.firstName);\n//       lastNames.push(currentPerson.lastName);\n//       ages.push(currentPerson.ages);\n//     }\n//     return (firstNames,lastNames,ages);\n  // }\n\n}",
+  "sourcePath": "/home/abubakar/Desktop/Blockchain Projects/peopleList/contracts/People.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/People.sol",
+    "exportedSymbols": {
+      "People": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "People",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "66:1080:0"
+      }
+    ],
+    "src": "32:1114:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/People.sol",
+      "exportedSymbols": {
+        "People": [
+          2
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2
+          ],
+          "name": "People",
+          "nodes": [
+            null
+          ],
+          "scope": 3
+        },
+        "id": 2,
+        "name": "ContractDefinition",
+        "src": "66:1080:0"
+      }
+    ],
+    "id": 3,
+    "name": "SourceUnit",
+    "src": "32:1114:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-16T08:38:27.794Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
