@@ -13,7 +13,7 @@ contract Bank {
     accounts[msg.sender] += msg.value;
   }
   function widthraw(uint256 _amount) public hasFunds(_amount){
-    (msg.sender).transfer(_amount);
+    payable(msg.sender).transfer(_amount);
   }
   function checkAssets() public view returns(uint256) {
     return address(this).balance;
